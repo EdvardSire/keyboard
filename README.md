@@ -6,6 +6,7 @@ The reason I bought a 40% was that i wanted the perfect keyboard, by that I mean
 
 * The letters take up a 3x10 grid
 * The ESC and backspace key is on each side
+* A centered spacebar on the bottom row
 
 Which makes the following starting point
 
