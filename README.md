@@ -1,6 +1,9 @@
 # An efficient 40% keyboard layout
 I have been fiddling with my 40% layout ever since i got my keyboard, and I believe that I've come up with some good ideas about the 40% layout that I haven't seen anywhere else online. You can upload the keyboard [JSON file](https://github.com/EdvardSire/keyboard/blob/master/niu_mini_layout_planck_mit_mine.json) at [QMK configurator](https://config.qmk.fm/#/) to view the layout layer by layer.
 
+* [TL;DR]()
+* [Can you go smaller than 40%]()
+* []
 * [The power of QMK](https://github.com/EdvardSire/keyboard#the-power-of-qmk)
 * https://github.com/EdvardSire/keyboard#can-you-go-smaller-than-40
 
@@ -13,11 +16,11 @@ The reason I bought a 40% was that i wanted the perfect keyboard, by that I mean
 
 ![Initial keyboard](/images/keyboard-layout-initial.png)
 
-## Reducing capitalization to on key
 ## Enter's position on the 4x12
+## Reducing capitalization to on key
 ## Numbers without a number row
 ## Special characters
 ## The power of QMK
-
+## The final layout
 
 
