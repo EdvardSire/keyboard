@@ -1,9 +1,8 @@
 # An efficient 40% keyboard layout
 I have been fiddling with my 40% layout ever since i got my keyboard, and I believe that I've come up with some good ideas about the 40% layout that I haven't seen anywhere else online. You can upload the keyboard [JSON file](https://github.com/EdvardSire/keyboard/blob/master/niu_mini_layout_planck_mit_mine.json) at [QMK configurator](https://config.qmk.fm/#/) to view the layout layer by layer.
 
-* [TL;DR]()
+* [TL;DR](https://github.com/EdvardSire/keyboard#the-final-layout)
 * [Can you go smaller than 40%]()
-* []
 * [The power of QMK](https://github.com/EdvardSire/keyboard#the-power-of-qmk)
 * https://github.com/EdvardSire/keyboard#can-you-go-smaller-than-40
 
@@ -16,8 +15,11 @@ The reason I bought a 40% was that i wanted the perfect keyboard, by that I mean
 
 ![Initial keyboard](/images/keyboard-layout-initial.png)
 
-## Enter's position on the 4x12
 ## Reducing capitalization to on key
+Coming from something like a >68 key keyboard I think it would be a natural reaction to placa right and left shift under TAB and apostrophe ('). I never liked how a >68 key keyboard did capitalization, three keys for one action. I hate capslock, since it's literally just another key held down, but I think it ended up on the >68 layout because of the flawed way the shift keys are placed.
+
+## Enter's position on the 4x12
+My first instinct was to rebind apostrophe (') and have the Enter under Backspace, but that wasn't comfortable for typing. Then i realized that one of the inefficiencies that i didn't like about 108 key keyboard was that I never really used my right thumb, since i Space with my left. That's how
 ## Numbers without a number row
 ## Special characters
 ## The power of QMK
