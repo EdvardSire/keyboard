@@ -16,7 +16,9 @@ The reason I bought a 40% was that i wanted the perfect keyboard, by that I mean
 ![Initial keyboard](/images/keyboard-layout-initial.png)
 
 ## Reducing capitalization to on key
-Coming from something like a >68 key keyboard I think it would be a natural reaction to placa right and left shift under TAB and apostrophe ('). I never liked how a >68 key keyboard did capitalization, three keys for one action. I hate capslock, since it's literally just another key held down, but I think it ended up on the >68 layout because of the flawed way the shift keys are placed.
+Coming from something like a >68 key keyboard I think it would be a natural reaction to place Right and Left Shift under TAB and apostrophe ('). I never liked how a >68 key keyboard did capitalization, three keys for one action. I hate capslock, since it's literally just another key held down permanently, but I think it ended up on the >68 layout because of the flawed way the Shift keys are placed. If we assume that one uses the pinky to press Right and Left Shift then this is what the homerow lookslike when pressed:
+
+![Shiftkey homerow](/images/keyboard-layout-shiftkey-homerow.png)
 
 ## Enter's position on the 4x12
 My first instinct was to rebind apostrophe (') and have the Enter under Backspace, but that wasn't comfortable for typing. Then i realized that one of the inefficiencies that i didn't like about 108 key keyboard was that I never really used my right thumb, since i Space with my left. That's how
