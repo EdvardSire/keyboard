@@ -50,7 +50,7 @@ The way I mapped Numbers was one of the few things I had a firm idea about when 
 
 
 ## Special characters
-Since special characters usually mapped to the number row, it was fairly obvious that they had to have their own layer. It would technically be possible to have them on the same layers as the Numbers, but this is unintuitive and unnecesassry. As you can see in the image below most of the Special characters are mapped to their "normal" fingers, but since the keyboard is only 12 units wide I had to make some adjustments. I prioritized (~)-($), deprioritized (%), (^) and (&). I mapped (-) and (=) to my dominant finger(right index) and their correlated (_) and (+) shifted. The parenthesis made extremely sense to me, with ({), and (}) shifted. The backslash is naturally to the left of Backspace and the (|) shifted. (/) can be found on layer 0.
+Since special characters are usually mapped to the number row, it was fairly obvious that they had to have their own layer. It would technically be possible to have them on the same layers as the Numbers, but this is unintuitive and unnecesassry. As you can see in the image below most of the Special characters are mapped to their "normal" fingers, but since the keyboard is only 12 units wide I had to make some adjustments. I prioritized (~)-($), deprioritized (%), (^) and (&). I mapped (-) and (=) to my dominant finger(right index) and their correlated (_) and (+) shifted. The parenthesis' made extremely sense to me, with ({), and (}) shifted. The backslash is naturally to the left of Backspace and the (|) shifted. (/) and other important Special characters can be found on layer 0.
 
 ![Special keyboard](/images/keyboard-layout-special-initial.png)
 
