@@ -44,7 +44,7 @@ I first wanted to move apostrophe (') somewhere else and have Enter under Backsp
 ## Numbers without a number row
 The way I mapped Numbers was one of the few things I had a good idea about when I orignally started tweaking the layout. I knew the Numbers had to be on another layer and decided that i wanted numpad-style Numbers, because I was used to the the numpad with my right hand, the Numbers ended up on the right. I decided to use a [momentary layer switch](https://docs.qmk.fm/#/keycodes?id=layer-switching), which is a feature of QMK. This basically makes the keyboard the second image when the "MO 1" is *pressed down*, when "MO 1" is released the keyboard reverts back to the first image.
 
-![Numbers keyboard](/images/keyboard-layout-numbers.png)
+![Numbers keyboard](/images/keyboard-layout-numbers-initial.png)
 
 ![Numbers-layer keyboard](/images/keyboard-layout-numbers-layer.png)
 
