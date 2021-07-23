@@ -35,6 +35,7 @@ One of my problems with the >68 key keyboard is that I never really used my righ
 ## Enter's position on the 4x12
 I first wanted to move apostrophe (') somewhere else and have Enter under Backspace, but that didn't type well. After mapping Shift one right of Spacebar my right thumb still only had one key to press, so I mapped Enter to the right of Shift. This never becomes a problem since Enter and Shift never needs to be pressed at the same time.
 
+![Enter keyboard](/images/keyboard-layout-enter.png)
 
 
 
