@@ -1,6 +1,3 @@
-# TODO
-Change images to represent shiftable characters and the red color
-
 # An efficient 40% keyboard layout
 I have been fiddling with my 40% layout ever since i got my keyboard, and I believe that I've come up with some good ideas about the 40% layout that I haven't seen anywhere else online. You can upload the keyboard [JSON file](https://github.com/EdvardSire/keyboard/blob/master/niu_mini_layout_planck_mit_mine.json) at [QMK configurator](https://config.qmk.fm/#/) to view the layout layer by layer.
 
@@ -36,8 +33,7 @@ One of my problems with the >68 key keyboard is that I never really used my righ
 ![Capitalization keyboard](/images/keyboard-layout-capitalization.png)
 
 ## Enter's position on the 4x12
-My first instinct was to rebind apostrophe (') and have the Enter under Backspace, but that wasn't comfortable for typing. Then i realized that one of the inefficiencies that i didn't like about 108 key keyboard was that I never really used my right thumb, since i Space with my left. That's how
-
+I first wanted to move apostrophe (') somewhere else and have Enter under Backspace, but that didn't type well. After mapping Shift one right of Spacebar my right thumb still only had one key to press, so I mapped Enter to the right of Shift. This never becomes a problem since Enter and Shift never needs to be pressed at the same time.
 
 
 
