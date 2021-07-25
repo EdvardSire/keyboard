@@ -1,5 +1,5 @@
 # An efficient 40% keyboard layout
-I have been tweaking my 40% keyboard layout since 2019, and I believe that I've come up with some good ideas that I haven't seen anywhere else online. Most of the paragraphs are about how I reasonated to the implementation, the "The final layout" is more descriptive. You can view the layout layer by layer by uploading the [QMK JSON file](https://github.com/EdvardSire/keyboard/blob/master/niu_mini_layout_planck_mit_mine_clean.json) at [QMK configurator](https://config.qmk.fm/#/).
+I have been tweaking my 40% keyboard layout since 2019, and I believe that I've come up with some good ideas that I haven't seen anywhere else online. Most of the paragraphs are about how I reasonated to the implementation, but the last heading is more descriptive. You can view the layout layer by layer by uploading the [QMK JSON file](https://github.com/EdvardSire/keyboard/blob/master/niu_mini_layout_planck_mit_mine_clean.json) at [QMK configurator](https://config.qmk.fm/#/) for better visuals.
 
 * [TL;DR](https://github.com/EdvardSire/keyboard#the-final-layout)
 * [Can you go smaller than 40%?](https://github.com/EdvardSire/keyboard#can-you-go-smaller-than-40)
@@ -7,8 +7,8 @@ I have been tweaking my 40% keyboard layout since 2019, and I believe that I've 
 * [Enter's position on the 4x12](https://github.com/EdvardSire/keyboard#enters-position-on-the-4x12)
 * [Numbers without a number row](https://github.com/EdvardSire/keyboard#numbers-without-a-number-row)
 * [Special characters](https://github.com/EdvardSire/keyboard#special-characters)
-* [The final layout](https://github.com/EdvardSire/keyboard#the-final-layout)
 * [The power of QMK](https://github.com/EdvardSire/keyboard#the-power-of-qmk)
+* [The final layout](https://github.com/EdvardSire/keyboard#the-final-layout)
 
 
 ## Can you go smaller than 40%?
