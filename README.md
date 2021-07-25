@@ -24,13 +24,13 @@ The reason I bought a 40% was that i wanted the perfect keyboard, by that I mean
 
 
 ## Reducing capitalization to one key
-Coming from something like a >68 key keyboard I think it would be a natural reaction to place Right and Left Shift under TAB and apostrophe ('). I never liked how a >68 key keyboard did capitalization, three keys for one action. I hate capslock, since it's literally just another key held down permanently, but I think it ended up on the >68 layout because of the flawed way the Shift keys are placed. If we assume that one uses the pinky to press Right and Left Shift then this is what the homerow looks like when pressed:
+Coming from something like a >68 key keyboard I think it would be a natural reaction to place Right and Left Shift under TAB and apostrophe ('). I never liked how a >68 key keyboard did capitalization, three keys for one action. I hate capslock, since it's literally just another key held down permanently, but I think it ended up on the >68 layout because of the flawed way the Shift keys are placed. If we assume that one uses the pinky to press Right and Left Shift then this is what the home row looks like when pressed:
 
 ![Shiftkey homerow](/images/keyboard-layout-shiftkey-homerow.png)
 
 Why two Shift keys in the first place? Well I'd aruge that's because when you press Left Shift you can no longer use your left pinky to capitalize Q, A or Z, this goes for Right Shift as well. I think this is an efficiency problem, but also that it's the reason why we traditionally have two Shift key and Capslock, since holding down Right or Left Shift permanently isn't feasible.
 
-One of my problems with the >68 key keyboard is that I never really used my right thumb, and concluding that 3 capitazlization keys comes from the flaw of using them with homerow fingers I found it natural use Shift with my right thumb, like in the image below. This solves capitalizing Q, A and Z with the left pinky and P, (:) and (?) with the right pinky, magically enough this also solves Capslock since the right thumb isn't used for anything else, and can hold down Shift permanently.
+One of my problems with the >68 key keyboard is that I never really used my right thumb, and concluding that 3 capitazlization keys comes from the flaw of using them with home row fingers I found it natural use Shift with my right thumb, like in the image below. This solves capitalizing Q, A and Z with the left pinky and P, (:) and (?) with the right pinky, magically enough this also solves Capslock since the right thumb isn't used for anything else, and can hold down Shift permanently.
 
 ![Shift keyboard](/images/keyboard-layout-shift.png)
 
@@ -42,7 +42,7 @@ I first wanted to move apostrophe (') somewhere else and have Enter under Backsp
 
 
 ## Numbers without a number row
-The way I mapped Numbers was one of the few things I had a firm idea about when I orignally started tweaking the layout. I knew the Numbers had to be on another layer and decided that i wanted numpad-style Numbers, because I was used to the the numpad with my right hand, the Numbers ended up on the right. I decided to use a [momentary layer switch](https://docs.qmk.fm/#/keycodes?id=layer-switching), which is a feature of QMK. This basically makes the keyboard the second image when the "MO 1" is *pressed down*, when "MO 1" is released the keyboard reverts back to the first image. A momentary layer switch.
+The way I mapped Numbers was one of the few things I had a firm idea about when I orignally started tweaking the layout. I knew the Numbers had to be on another layer and decided that i wanted numpad-style Numbers, because I was used to using the numpad with my right hand, the Numbers ended up on the right. I decided to use a [momentary layer switch](https://docs.qmk.fm/#/keycodes?id=layer-switching), which is a feature of QMK. This basically makes the keyboard the second image when the "MO 1" is *pressed down*, when "MO 1" is released the keyboard reverts back to the first image. A momentary layer switch.
 
 ![Numbers keyboard](/images/keyboard-layout-numbers-initial.png)
 
@@ -54,9 +54,18 @@ Since special characters are usually mapped to the number row, it was fairly obv
 
 ![Special keyboard](/images/keyboard-layout-special-initial.png)
 
-![Speical-layer keyboard](/images/keyboard-layout-special-layer.png)
+![Special-layer keyboard](/images/keyboard-layout-special-layer.png)
 
 
-## Function keys and arrows
+## Arrow keys and Function keys
+Other small keyboard usually have the arrow keys in the bottom right corner, but I think it's much more efficient and comfortable to have them on the home row. Since the Arrow keys only require 3 fingers, the key under apostrophe (') was natural and convenient to use as the Arrow key layer. I later realized that I needed Function keys (surprise, surprise), but they were easy to just dump on the left side of the Arrow keys.
+
+![Arrows keyboard](/images/keyboard-layout-arrows-initial.png)
+
+![Arrows-layer keyboard](/images/keyboard-layout-arrows-layer.png)
+
+
 ## The power of QMK
+
+
 ## The final layout
