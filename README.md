@@ -66,12 +66,20 @@ Other small keyboard usually have the arrow keys in the bottom right corner, but
 
 
 ## The power of QMK
-[QMK](https://qmk.fm) (Quantum Mechanical Keyboard) is an amazingly powerful keyboard firmware tool that most custom keyboards supprort. It makes the layers in my layout possible, but it has more complex features built in and makes it possible to program your own. I'd recommend checking out all the built in features at [QMK config](https://config.qmk.fm), here is the ones I find useful:
+[QMK](https://qmk.fm) (Quantum Mechanical Keyboard) is an amazingly powerful keyboard firmware tool that most custom keyboards support. It makes the layers in my layout possible, but it has more complex features built in and makes it possible to program your own. I'd recommend checking out all the built in features at [QMK config](https://config.qmk.fm), here are the ones I find useful:
 
 ![QMK keyboard](/images/keyboard-layout-qmk.png)
 
+* The "escape key" is normally ESC, but (~) when shift is pressed
+* The Shift and Enter keys from before are combined into one: Enter when pressed, Shift when held down
+* The Del key is now on the bottom right
+* Layer 1 is updated
+* Layer 4 is new
+
 ![QMK-numbers keyboard](/images/keyboard-layout-numbers-qmk.png)
+In addition to numbers this layer now has Media keys, a Power key, a Reset key and RGB control.
 
 ![QMK-mouse keyboard](/images/keyboard-layout-mouse.png)
+This new layers makes it possible to control the cursor without a mouse, not practical, but possible.
 
 ## The final layout
