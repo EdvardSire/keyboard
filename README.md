@@ -66,6 +66,12 @@ Other small keyboard usually have the arrow keys in the bottom right corner, but
 
 
 ## The power of QMK
+[QMK](https://qmk.fm) (Quantum Mechanical Keyboard) is an amazingly powerful keyboard firmware tool that most custom keyboards supprort. It makes the layers in my layout possible, but it has more complex features built in and makes it possible to program your own. I'd recommend checking out all the built in features at [QMK config](https://config.qmk.fm), here is the ones I find useful:
 
+![QMK keyboard](/images/keyboard-layout-qmk.png)
+
+![QMK-numbers keyboard](/images/keyboard-layout-numbers-qmk.png)
+
+![QMK-mouse keyboard](/images/keyboard-layout-mouse.png)
 
 ## The final layout
