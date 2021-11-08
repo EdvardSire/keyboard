@@ -1,4 +1,8 @@
 # An efficient 40% keyboard layout
+
+TODO
+- add backtick
+
 I have been tweaking my 40% keyboard layout since 2019, and I believe that I've come up with some good ideas that I haven't seen anywhere else online. Most of the paragraphs are about how I reasonated to the implementation, but the last heading is more descriptive. You can view the layout layer by layer by uploading the [QMK JSON file](https://github.com/EdvardSire/keyboard/blob/master/niu_mini_layout_planck_mit_mine_clean.json) at [QMK configurator](https://config.qmk.fm/#/) for better visuals.
 
 * [TL;DR](https://github.com/EdvardSire/keyboard#the-final-layout)
