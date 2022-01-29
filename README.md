@@ -20,12 +20,10 @@ When I was searching for a new keyboard back in 2019 I realised that what I was 
 
 - The letters on a 3x10 grid
 - ESC and TAB on the left
-- Backspace key on the right
+- Backspace on the right
 - The CTRL, Super, Alt and Spacebar on the bottom
 
 ![Initial keyboard](/images/keyboard-layout-initial.png)
-
-Here we can see that anything less than 40% isn't possible, at least based on the given requirements.
 
 ## Motivation
 
