@@ -16,7 +16,7 @@ This is the summary of my 40% keyboard layout. This essay reflects my process of
 
 ## Why 40%?
 
-When I was searching for a new keyboard back in 2019 I realised that what I was looking for was the smallest possible, yet _efficient_, keyboard. I decided that I wanted an ortholinear keyboard since it minimizes the keyboard footprint. But you can argue that absolute keyboard size is more accurately defined by the number of keys. Anyways, I concluded that a 40%, more specifically a 4x12, is the smallest keyboard that meets the following requirements:
+When I was searching for a new keyboard back in 2019 I realised that I was looking for the smallest possible, yet _efficient_, keyboard. I decided that I wanted an ortholinear keyboard since it minimizes the keyboard footprint. But you can argue that absolute keyboard size is more accurately defined by the number of keys. Anyways, I concluded that a 40%, more specifically a 4x12, is the smallest keyboard that meets the following requirements:
 
 - The letters on a 3x10 grid
 - ESC and TAB on the left
