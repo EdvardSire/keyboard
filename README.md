@@ -1,6 +1,7 @@
 # An efficient 40% keyboard layout
 
 Todo
+
 - Proofread
 - Reformulate lower portion
 
@@ -27,7 +28,7 @@ When I was searching for a new keyboard back in 2019 I realised that I was looki
 
 ## Motivation
 
-The purpose of the layout is to combine a small footprint with an efficient layout. A 4x12 footprint results in the fact that the fingers can stay on the home row. This is intrinsically efficient but has to be combined with a sensible layout that doesn’t restrict typing speed.
+The purpose of the layout is to combine a small footprint with an efficient layout. A 4x12 footprint results in the fact that the fingers can stay on the home row. This is intrinsically efficient but has to be combined with a sensible layout that doesn’t restrict typing speed or usability.
 
 ## Reducing capitalization to one key
 
@@ -41,17 +42,13 @@ Okay, how do we improve this? The reason for multiple Shift keys is that the hom
 
 ![Shift keyboard](/images/keyboard-layout-shift.png)
 
-## Enter's position on the 4x12
+## The power of QMK
 
-Continue from here
-
-I first wanted to move apostrophe (') somewhere else and have Enter under Backspace, but that didn't type well. After mapping Shift one right of Spacebar my right thumb still only had one key to press, so I mapped Enter to the right of Shift. This never becomes a problem since Enter and Shift never has to be pressed at the same time.
-
-![Enter keyboard](/images/keyboard-layout-enter.png)
+At this point it might seem like the layout is running out of keys, yes, but actually no. [QMK](https://qmk.fm) (Quantum Mechanical Keyboard) is an amazingly powerful keyboard firmware tool that most custom keyboards support. It makes the layers in my layout possible, but it has more complex features built in and makes it possible to program your own. I'd recommend checking out all the built in features at [QMK config](https://config.qmk.fm).
 
 ## Numbers without a number row
 
-The way I mapped Numbers was one of the few things I had a firm idea about when I orignally started tweaking the layout. I knew the Numbers had to be on another layer and decided that i wanted numpad-style Numbers, because I was used to using the numpad with my right hand, the Numbers ended up on the right. I decided to use a [momentary layer switch](https://docs.qmk.fm/#/keycodes?id=layer-switching), which is a feature of QMK. This basically makes the keyboard the second image when the "MO 1" is _pressed down_, when "MO 1" is released the keyboard reverts back to the first image. A momentary layer switch.
+The way I mapped Numbers was one of the few things I had a firm idea about when I orignally started tweaking the layout. I knew the Numbers had to be on another layer and decided that i wanted numpad-style Numbers, because I was used to using the numpad with my right hand. I decided to use a QMK [momentary layer switch](https://docs.qmk.fm/#/keycodes?id=layer-switching). This basically switches the keyboard layout to the second image when the "MO 1" is _pressed down_. When "MO 1" is released the keyboard reverts back to the first image. This is convenient and fast since the fingers doesn't have to move.
 
 ![Numbers keyboard](/images/keyboard-layout-numbers-initial.png)
 
@@ -59,7 +56,7 @@ The way I mapped Numbers was one of the few things I had a firm idea about when 
 
 ## Special characters
 
-Since special characters are usually mapped to the number row, it was fairly obvious that they had to have their own layer. It would technically be possible to have them on the same layers as the Numbers, but this is unintuitive and unnecesassry. As you can see in the image below most of the Special characters are mapped to their "normal" fingers, but since the keyboard is only 12 units wide I had to make some adjustments. I prioritized (~)-($), deprioritized (%), (^) and (&). I mapped (-) and (=) to my dominant finger(right index) and their correlated (\_) and (+) shifted. The parenthesis' made extremely sense to me, with ({), and (}) shifted. The backslash is naturally to the left of Backspace and the (|) shifted. (/) and other important Special characters can be found on layer 0.
+Since special characters are usually mapped to the number row, it was fairly obvious that they had to have their own layer. It would technically be possible to have them on the same layers as the Numbers, but this is unintuitive and unnecesassry. As you can see in the image below most of the Special characters are mapped to their "normal" fingers, but since the keyboard is only 12 units wide I had to make some adjustments. I prioritized (~)-($), deprioritized (%), (^) and (&). I mapped (-) and (=) to my dominant finger(right index) and their correlated (\_) and (+) shifted. The parenthesis' are comfortable to press with the two in-the-middle homerow-fingers, ({) and (}) are shifted. The backslash is naturally to the left of Backspace and the (|) shifted. (/) and other important Special characters can be found on layer 0.
 
 ![Special keyboard](/images/keyboard-layout-special-initial.png)
 
@@ -67,13 +64,15 @@ Since special characters are usually mapped to the number row, it was fairly obv
 
 ## Arrow keys and Function keys
 
-Other small keyboard usually have the arrow keys in the bottom right corner, but I think it's much more efficient and comfortable to have them on the home row. Since the Arrow keys only require 3 fingers, the key under apostrophe (') was natural and convenient to use as the Arrow key layer. I later realized that I needed Function keys (surprise, surprise), but they were easy to just dump on the left side of the Arrow keys.
+Other small keyboard usually have the arrow keys in the bottom right corner, but I think it's much more efficient and comfortable to have them on the home row. Since the Arrow keys only require 3 fingers, using the pinkie finger is natural. The key under apostrophe (') was natural and convenient. I later realized that I needed Function keys (surprise, surprise), but they were easy to just dump on the left side of the Arrow keys.
 
 ![Arrows keyboard](/images/keyboard-layout-arrows-initial.png)
 
 ![Arrows-layer keyboard](/images/keyboard-layout-arrows-layer.png)
 
-## The power of QMK
+## Making the keyboard complete
+
+Continue from her
 
 [QMK](https://qmk.fm) (Quantum Mechanical Keyboard) is an amazingly powerful keyboard firmware tool that most custom keyboards support. It makes the layers in my layout possible, but it has more complex features built in and makes it possible to program your own. I'd recommend checking out all the built in features at [QMK config](https://config.qmk.fm), here are the ones I find useful:
 
@@ -94,3 +93,11 @@ In addition to numbers this layer now has Media keys, a Power key, a Reset key a
 This new layers makes it possible to control the cursor without a mouse, not practical, but possible.
 
 ## The final layout
+
+## Enter's position on the 4x12
+
+Continue from here
+
+I first wanted to move apostrophe (') somewhere else and have Enter under Backspace, but that didn't type well. After mapping Shift one right of Spacebar my right thumb still only had one key to press, so I mapped Enter to the right of Shift. This never becomes a problem since Enter and Shift never has to be pressed at the same time. When QMK is introduced enter's position is improved.
+
+![Enter keyboard](/images/keyboard-layout-enter.png)
