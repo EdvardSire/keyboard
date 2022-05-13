@@ -41,7 +41,7 @@ I think anyone coming from a keyboard with 68 keys or more would naturally place
 
 Why two Shift keys in the first place? I’d argue that it stems from the capitalization problem of A, Q, Z, and P. This is (I guess) also the reason why we have Caps Lock, since holding down Right or Left Shift permanently isn't feasible.
 
-Okay, how do we improve this? The reason for multiple Shift keys is that the home row pinkies can’t be held down permanently, this is what creates the need for Caps Lock. That means that if we solve Shift keys we don’t need Caps Lock. And the problem with Shift keys is that their fingers, the pinkies, are needed for other important keys. In fact, it doesn’t make sense to use **any** of the home row fingers for capitalization, because they press the letters to capitalize. That’s why using the non-Spacebar-thumb for Shift magically reduces capitalization to one key, since it can be held down permanently.
+Okay, so how do we improve this? The reason for multiple Shift keys is that the home row pinkies can’t be held down permanently, this is what creates the need for Caps Lock. That means that if we solve Shift keys we don’t need Caps Lock. And the problem with Shift keys is that their fingers, the pinkies, are needed for other important keys. In fact, it doesn’t make sense to use **any** of the home row fingers for capitalization, because they press the letters to capitalize. That’s why using the non-Spacebar-thumb for Shift magically reduces capitalization to one key, since it can be held down permanently.
 
 ![Shift keyboard](/images/keyboard-layout-shift.png)
 
