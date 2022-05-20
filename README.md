@@ -69,9 +69,11 @@ Since special characters are usually mapped to the number row, it is natural to 
 
 ![Special-layer keyboard](/images/keyboard-layout-special-layer.png)
 
+This is surprisingly easy to adapt to and I actually prefer this parenthesis-layout over QWERTY's.
+
 ## Arrow keys and Function keys
 
-Other small keyboard usually have the arrow keys in the bottom right corner, but I think it's much more efficient and comfortable to have them on the home row. Since the Arrow keys only require 3 fingers, using the pinkie finger is natural. The key under apostrophe (') was natural and convenient. I later realized that I needed Function keys (surprise, surprise), but they were easy to just dump on the left side of the Arrow keys.
+Other small keyboard usually have the arrow keys in the bottom right corner. This keyboard footprint doesn't allow for that, but I don't mind because I think it can be done better. Like with the numbers i find it efficient to not have to move from the home row, and since the arrow keys only require three fingers I can use the right pinky to momentary switch layers. I later placed function keys on the left side of this almost empty layer.
 
 ![Arrows keyboard](/images/keyboard-layout-arrows-initial.png)
 
