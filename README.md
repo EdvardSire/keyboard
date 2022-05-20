@@ -51,7 +51,7 @@ At this point it might seem like the layout is running out of keys, yes, but act
 
 ## Numbers without a number row
 
-The way I mapped Numbers was one of the few things I had a firm idea about when I orignally started tweaking the layout. I knew the Numbers had to be on another layer and decided that i wanted numpad-style Numbers, because I was used to using the numpad with my right hand. I decided to use a QMK [momentary layer switch](https://docs.qmk.fm/#/keycodes?id=layer-switching). This basically switches the keyboard layout to the second image when the "MO 1" is _pressed down_. When "MO 1" is released the keyboard reverts back to the first image. This is convenient and fast since the fingers doesn't have to move.
+The way I mapped Numbers was one of the few things I had a firm idea about when I orignally started tweaking the layout. I knew the Numbers had to be on another layer and decided that i wanted numpad-style numbers. They ended up on the right "under" the home row. I decided to use a QMK [momentary layer switch](https://docs.qmk.fm/#/keycodes?id=layer-switching). This basically switches the keyboard layout to the second image when the "MO 1" is _pressed down_. When "MO 1" is released the keyboard reverts back to the first image. This is both convenient and fast since the fingers doesn't have to move.
 
 ![Numbers keyboard](/images/keyboard-layout-numbers-initial.png)
 
@@ -59,7 +59,11 @@ The way I mapped Numbers was one of the few things I had a firm idea about when 
 
 ## Special characters
 
-Since special characters are usually mapped to the number row, it was fairly obvious that they had to have their own layer. It would technically be possible to have them on the same layers as the Numbers, but this is unintuitive and unnecesassry. As you can see in the image below most of the Special characters are mapped to their "normal" fingers, but since the keyboard is only 12 units wide I had to make some adjustments. I prioritized (~)-($), deprioritized (%), (^) and (&). I mapped (-) and (=) to my dominant finger(right index) and their correlated (\_) and (+) shifted. The parenthesis' are comfortable to press with the two in-the-middle homerow-fingers, ({) and (}) are shifted. The backslash is naturally to the left of Backspace and the (|) shifted. (/) and other important Special characters can be found on layer 0.
+Since special characters are usually mapped to the number row, it is natural to dedicate a new layer to them. It would technically be possible to have them on the same layers as the numbers, but this is unintuitive and unnecesassry. As you can see in the image below most of the special characters are where they would be on a QWERTY layout. But since the keyboard is only 12 keys wide I had to make some adjustments.
+
+- Prioritized (~)-($), deprioritized (%), (^) and (&)
+- Mapped (-) and (=) to my dominant finger (right index)
+- Mapped paranthesis' to the middle home row fingers
 
 ![Special keyboard](/images/keyboard-layout-special-initial.png)
 
