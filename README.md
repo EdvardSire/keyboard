@@ -73,7 +73,7 @@ This is surprisingly easy to adapt to and I actually prefer this parenthesis-lay
 
 ## Arrow keys and Function keys
 
-Other small keyboard usually have the arrow keys in the bottom right corner. This keyboard footprint doesn't allow for that, but I don't mind because I think it can be done better. Like with the numbers i find it efficient to not have to move from the home row, and since the arrow keys only require three fingers I can use the right pinky to momentary switch layers. I later placed function keys on the left side of this almost empty layer.
+Other small keyboard usually have the arrow keys in the bottom right corner. This keyboard footprint doesn't allow for that, but I don't mind because I think it can be done better. Like with the numbers i find it efficient to let the fingers stay on the home row, and since the arrow keys only require three fingers I can use the right pinky to momentary switch layer. I later placed function keys on the left side of this almost empty layer.
 
 ![Arrows keyboard](/images/keyboard-layout-arrows-initial.png)
 
@@ -100,14 +100,3 @@ This new layers makes it possible to control the cursor without a mouse, not pra
 ![QMK-mouse keyboard](/images/keyboard-layout-mouse.png)
 
 ## The final layout
-
-{::comment}
-
-## Enter's position on the 4x12
-
-Continue from here
-
-I first wanted to move apostrophe (') somewhere else and have Enter under Backspace, but that didn't type well. After mapping Shift one right of Spacebar my right thumb still only had one key to press, so I mapped Enter to the right of Shift. This never becomes a problem since Enter and Shift never has to be pressed at the same time. When QMK is introduced enter's position is improved.
-
-![Enter keyboard](/images/keyboard-layout-enter.png)
-{:/comment}
