@@ -1,14 +1,7 @@
 # An efficient 40% keyboard layout
-fda
 
-Todo
+This essay summarizes my process of designing an “optimal” keyboard layout. You can view the layout layer by layer at [QMK configurator](https://config.qmk.fm/#/) by uploading one of the [JSON files](https://github.com/EdvardSire/keyboard/blob/master/niu_mini_layout_planck_mit_mine_clean.json). If you are just interested in the finished layout, feel free to skip to [The final layout](https://github.com/EdvardSire/keyboard#the-final-layout).
 
-- Proofread
-- Reformulate lower portion
-- Add numlock
-- Remake some of the images to be consistent with new keys added
-
-This is the summary of my 40% keyboard layout. This essay reflects my process of designing an “optimal” keyboard layout. You can view the layout layer by layer at [QMK configurator](https://config.qmk.fm/#/) by uploading one of the [JSON files](https://github.com/EdvardSire/keyboard/blob/master/niu_mini_layout_planck_mit_mine_clean.json). If the resonating process doesn’t interest you, feel free to skip to [The final layout](https://github.com/EdvardSire/keyboard#the-final-layout) section.
 
 - [Why 40%](https://github.com/EdvardSire/keyboard#why-40%)
 - [Motivation](https://github.com/EdvardSire/keyboard#motivation)
@@ -101,3 +94,10 @@ This new layers makes it possible to control the cursor without a mouse, not pra
 ![QMK-mouse keyboard](/images/keyboard-layout-mouse.png)
 
 ## The final layout
+
+## Todo
+
+- Proofread
+- Reformulate lower portion
+- Add numlock
+- Remake some of the images to be consistent with new keys added
