@@ -1,4 +1,5 @@
 # An efficient 40% keyboard layout
+![Keyboard](/images/keyboard.png)
 
 This essay summarizes my process of designing an “optimal” keyboard layout. You can view the layout layer by layer at [QMK configurator](https://config.qmk.fm/#/) by uploading one of the [JSON files](https://github.com/EdvardSire/keyboard/blob/master/niu_mini_layout_planck_mit_mine_clean.json). If you are just interested in the finished layout, feel free to skip to [The final layout](https://github.com/EdvardSire/keyboard#the-final-layout).
 
