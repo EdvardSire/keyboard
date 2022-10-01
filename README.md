@@ -29,7 +29,7 @@ When I was searching for a new keyboard back in 2019 I realised that I was looki
 
 ## Motivation
 
-The purpose of the layout is to combine a small footprint with an efficient layout. A 4x12 footprint results in the fact that the fingers can stay on the home row. This is intrinsically efficient but has to be combined with a sensible layout that doesn’t restrict typing speed or usability.
+The purpose of the layout is to combine a small footprint with an efficient layout. A 4x12 footprint means that the fingers can stay on the home row. This is intrinsically efficient but has to be combined with a sensible layout that doesn’t restrict typing speed or usability.
 
 ## Reducing capitalization to one key
 
@@ -98,6 +98,7 @@ This new layers makes it possible to control the cursor without a mouse, not pra
 ![QMK-mouse keyboard](/images/keyboard-layout-mouse.png)
 
 ## The final layout
+In progress
 
 ## Todo
 
