@@ -49,7 +49,7 @@
       "KC_LALT",
       "MO(3)",
       "KC_SPC",
-      "ANY(KC_SFTENT)",
+      "SC_SENT",
       "MO(8)",
       "KC_TRNS",
       "TO(4)",
